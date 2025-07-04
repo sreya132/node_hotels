@@ -1,1 +1,5 @@
+# Ignore the directory
 node_modules/
+
+# Can add others
+ 
