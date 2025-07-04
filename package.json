@@ -1,0 +1,21 @@
+{
+  "name": "node-prac",
+  "version": "1.0.0",
+  "description": "test app",
+  "keywords": [
+    "test",
+    "node"
+  ],
+  "license": "ISC",
+  "author": "sreya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  }
+}
