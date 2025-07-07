@@ -5,6 +5,9 @@ const app = express();
 //import the database
 const db = require('./db');
 
+//.env file import
+require('dotenv').config()
+
 //add bodyParser
 const bodyParser = require('body-parser')
 app.use(bodyParser.json()) //kaj kore req.body
@@ -46,7 +49,7 @@ app.use('/menu',menuItemRoutes)
 //     res.send("data is saved")
 // })
 
-app.listen(3000, () => {
+const PORT = process.env.PORT || 3000
+app.listen(PORT, () => {
     console.log("Server is live");
 });
-//add comments for testing
