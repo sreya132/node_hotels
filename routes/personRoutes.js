@@ -14,9 +14,9 @@ router.post ('/', async(req,res)=>{
         const newPerson = new Person (data) 
 
         //save the new Person to the database
-        const savaData = await newPerson.save()
+        const savedData = await newPerson.save()
         console.log('Data Saved')
-        res.status(200).json(savaData)
+        res.status(200).json(savedData)
         
     }catch(err){
         console.log(err);

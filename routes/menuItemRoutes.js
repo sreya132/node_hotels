@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-//import person here
+//import menu here
 const MenuItem = require('./../models/MenuItem.js');
 
 
